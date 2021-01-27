@@ -1,0 +1,137 @@
+
+
+main{
+    background-image:  url(./night-4079479.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+main > .di{
+    background-color: #42014294;
+    width: 100%;
+    height: 240px;
+    animation: blurr 9s infinite;
+    filter: blur(50px);
+    
+}
+
+@keyframes blurr {
+    6% {
+        background-color: #42014273;
+    }
+    12% {
+        background-color: #60006063;
+    }
+    18% {
+        background-color: #8402845b;
+    }
+    24% {
+        background-color: #9f009f4f;
+    }
+    30% {
+        background-color: #bd04bd5e;
+    }
+    36% {
+        background-color: #dd00dd56;
+    }
+    42% {
+        background-color: #f403f462;
+    }
+    48% {
+        background-color: #ff42ff65;
+    }
+    54% {
+        background-color: #ff5dff63;
+    }
+    60% {
+        background-color: #ff7bff69;
+    }
+    66% {
+        background-color: #ffa0ff79;
+    }
+    72% {
+        background-color: #ffcaff81;
+    }
+    78% {
+        background-color: #d498d48a;
+    }
+    84% {
+        background-color: #bd9cbd94;
+    }
+    90% {
+        background-color: #ab7dab75;
+    }
+    94% {
+        background-color: #8956897a;
+    }
+    97% {
+        background-color: #74417479;
+    }
+    100% {
+        background-color: #571f5780;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
